@@ -20,8 +20,12 @@ public class calculator {
     case 3:
         System.out.println("The value is="+(a+b));
         break;
-    case 4:
+    case 4:if(b==0){
+        System.out.println("Invalid Division");
+    }
+    else{
         System.out.println("The value is="+(a%b));
+    } 
         break;            
    
     default:
